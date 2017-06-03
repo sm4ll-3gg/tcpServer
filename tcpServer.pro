@@ -24,9 +24,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += main.cpp\
-    myserver.cpp
+    myserver.cpp \
+    myclient.cpp
 
 HEADERS  += \
-    myserver.h
+    myserver.h \
+    myclient.h
 
 FORMS    +=
